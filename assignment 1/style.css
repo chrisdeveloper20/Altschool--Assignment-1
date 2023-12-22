@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* Resetting some default styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* styling the body */
+body{
+    background-color:#f4fbfa;
+
+}
+
+/* Styling the main container */
+.main-section-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 50px 150px;
+    gap: 50px;
+}
+
+/* Styling the first section */
+.intro-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding-right: 50px; */
+}
+
+/* Styling the comb section */
+.comb{
+    margin-top: 100px;
+    width: 85%;
+}
+
+/* Styling the logo */
+.logo{
+    padding: 0;
+    margin: 0px;
+}
+
+/* Styling the logo  image*/
+.logo img{
+    width: 75px;
+    height: 80px;
+    margin-bottom:20px;
+}
+
+
+/* Styling the h1 element */
+h1{
+    margin-bottom: 30px;
+}
+
+.mobile{
+    display: none;
+}
+
+/* Styling the second section */
+.second{
+    width: 90%;
+    box-shadow: 1px 1px 9px 1px rgba(0,0,0,0.11);
+    background-color: white;
+}
+
+/* Styling the form */
+form{
+    margin: 20px;
+    font-size: 12px;
+}
+
+form .input-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+form .input-flex .input-box{
+    width: 48%;
+    margin: 6px 0;
+}
+
+
+form .input-flex .input-box input, .btn, .btnx{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+ form input:focus{
+    border: 1px solid #2EC4B6;
+    outline: 1.5px solid #ccc;
+} 
+
+/* Styling the buttons */
+.btn{
+    margin-bottom: 20px;
+}
+
+.btnx{
+    background-color: #2EC4B6;
+}
+
+/* Styling the pagination */
+.pag{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+span{
+    text-decoration: underline;
+    color: #2EC4B6;
+}
+
+
+/* Media query for smaller screens (max-width: 480px) */
+@media (max-width: 480px)  {
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #f4fbfa;
+}
+
+ /* Styling the body for smaller screens */
+.main-section-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+ /* Styling the first section for smaller screens */
+.intro-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comb {
+    margin-top: 20px;
+    width: 100%;
+}
+
+ /* Styling the logo image for smaller screens */
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.Desktop{
+    display: none;
+
+}
+
+.mobile{
+    display:block;
+}
+
+.second {
+    width: 100%;
+    box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, 0.11);
+    background-color: white;
+}
+
+form {
+    margin: 10px;
+    font-size: 14px;
+}
+
+form .input-flex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form .input-flex .input-box {
+    width: 100%;
+    margin: 6px 0;
+}
+
+form .input-flex .input-box input,
+.btn,
+.btnx {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+form input:focus {
+    border: 1px solid #2EC4B6;
+    outline: 1.5px solid #ccc;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.btnx {
+    background-color: #2EC4B6;
+}
+
+.pag {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+span {
+    text-decoration: underline;
+    color: #2EC4B6;
+}
+
+
+}
